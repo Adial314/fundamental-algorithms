@@ -1,0 +1,9 @@
+{
+    "A": { "connections": { "B": 5, "D": 7},
+           "distance": 0
+         },
+    "B": { "connections": { "C": 4, "D": 10 } },
+    "C": { "connections": { "E": 6 } },
+    "D": { "connections": { "C": 8, "E": 13 } },
+    "E": { "connections": { } }
+}

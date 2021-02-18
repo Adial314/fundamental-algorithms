@@ -1,0 +1,19 @@
+{
+    "S": { "connections": { "A": 7, "B": 2, "C": 3},
+           "distance": 0,
+           "via": null,
+           "visited": null
+         },
+    "A": { "connections": { "S": 7, "B": 3, "D": 4 } },
+    "B": { "connections": { "S": 2, "A": 3, "D": 4, "H": 1 } },
+    "C": { "connections": { "S": 3, "L": 2 } },
+    "D": { "connections": { "A": 4, "B": 4, "F": 5 } },
+    "F": { "connections": { "D": 5, "H": 3 } },
+    "G": { "connections": { "H": 2, "E": 2 } },
+    "H": { "connections": { "B": 1, "F": 3, "G": 2 } },
+    "I": { "connections": { "L": 4, "J": 6, "K": 4 } },
+    "J": { "connections": { "L": 4, "I": 6, "K": 4 } },
+    "K": { "connections": { "I": 4, "J": 4, "E": 5 } },
+    "L": { "connections": { "C": 2, "I": 4, "J": 4 } },
+    "E": { "connections": { "G": 2, "K": 5 } }
+}

@@ -1,0 +1,81 @@
+02/18/2021 07:05:09 AM - iteration 0 node S with distance 0 via None
+02/18/2021 07:05:09 AM - 	evaluating connection A with cost 7
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 7
+02/18/2021 07:05:09 AM - 		setting A to 7 via S
+02/18/2021 07:05:09 AM - 	evaluating connection B with cost 2
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 2
+02/18/2021 07:05:09 AM - 		setting B to 2 via S
+02/18/2021 07:05:09 AM - 	evaluating connection C with cost 3
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 3
+02/18/2021 07:05:09 AM - 		setting C to 3 via S
+02/18/2021 07:05:09 AM - 	setting S to visited
+02/18/2021 07:05:09 AM - next node is B
+02/18/2021 07:05:09 AM - iteration 1 node B with distance 2 via S
+02/18/2021 07:05:09 AM - 	evaluating connection A with cost 3
+02/18/2021 07:05:09 AM - 		current distance is 7
+02/18/2021 07:05:09 AM - 		connection distance is 5
+02/18/2021 07:05:09 AM - 		setting A to 5 via B
+02/18/2021 07:05:09 AM - 	evaluating connection D with cost 4
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 6
+02/18/2021 07:05:09 AM - 		setting D to 6 via B
+02/18/2021 07:05:09 AM - 	evaluating connection H with cost 1
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 3
+02/18/2021 07:05:09 AM - 		setting H to 3 via B
+02/18/2021 07:05:09 AM - 	setting B to visited
+02/18/2021 07:05:09 AM - next node is C
+02/18/2021 07:05:09 AM - iteration 2 node C with distance 3 via S
+02/18/2021 07:05:09 AM - 	evaluating connection L with cost 2
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 5
+02/18/2021 07:05:09 AM - 		setting L to 5 via C
+02/18/2021 07:05:09 AM - 	setting C to visited
+02/18/2021 07:05:09 AM - next node is H
+02/18/2021 07:05:09 AM - iteration 3 node H with distance 3 via B
+02/18/2021 07:05:09 AM - 	evaluating connection F with cost 3
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 6
+02/18/2021 07:05:09 AM - 		setting F to 6 via H
+02/18/2021 07:05:09 AM - 	evaluating connection G with cost 2
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 5
+02/18/2021 07:05:09 AM - 		setting G to 5 via H
+02/18/2021 07:05:09 AM - 	setting H to visited
+02/18/2021 07:05:09 AM - next node is A
+02/18/2021 07:05:09 AM - iteration 4 node A with distance 5 via B
+02/18/2021 07:05:09 AM - 	evaluating connection D with cost 4
+02/18/2021 07:05:09 AM - 		current distance is 6
+02/18/2021 07:05:09 AM - 		connection distance is 9
+02/18/2021 07:05:09 AM - 	setting A to visited
+02/18/2021 07:05:09 AM - next node is G
+02/18/2021 07:05:09 AM - iteration 5 node G with distance 5 via H
+02/18/2021 07:05:09 AM - 	evaluating connection E with cost 2
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 7
+02/18/2021 07:05:09 AM - 		setting E to 7 via G
+02/18/2021 07:05:09 AM - 	setting G to visited
+02/18/2021 07:05:09 AM - next node is L
+02/18/2021 07:05:09 AM - iteration 6 node L with distance 5 via C
+02/18/2021 07:05:09 AM - 	evaluating connection I with cost 4
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 9
+02/18/2021 07:05:09 AM - 		setting I to 9 via L
+02/18/2021 07:05:09 AM - 	evaluating connection J with cost 4
+02/18/2021 07:05:09 AM - 		current distance is inf
+02/18/2021 07:05:09 AM - 		connection distance is 9
+02/18/2021 07:05:09 AM - 		setting J to 9 via L
+02/18/2021 07:05:09 AM - 	setting L to visited
+02/18/2021 07:05:09 AM - next node is D
+02/18/2021 07:05:09 AM - iteration 7 node D with distance 6 via B
+02/18/2021 07:05:09 AM - 	evaluating connection F with cost 5
+02/18/2021 07:05:09 AM - 		current distance is 6
+02/18/2021 07:05:09 AM - 		connection distance is 11
+02/18/2021 07:05:09 AM - 	setting D to visited
+02/18/2021 07:05:09 AM - next node is F
+02/18/2021 07:05:09 AM - iteration 8 node F with distance 6 via H
+02/18/2021 07:05:09 AM - 	setting F to visited
+02/18/2021 07:05:09 AM - next node is E
