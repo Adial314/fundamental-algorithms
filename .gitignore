@@ -1,0 +1,13 @@
+# Ignore emacs backup files
+*~
+
+# JupyterLab histories
+.ipynb_checkpoints
+
+# Precompiled code
+*/.pyc
+*/*.pyc
+*/*/*.pyc
+*/*/*/*.pyc
+*/*/*/*/*.pyc
+
